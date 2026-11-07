@@ -1,0 +1,10 @@
+[default_config]
+version = "0.10.1"
+assembler = "gas"
+instruction_set = "AVR"
+
+[default_config.opts]
+compiler = "sdas8051"
+compile_flags_txt = ["-v"]
+diagnostics = true
+default_diagnostics = false
