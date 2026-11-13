@@ -24,7 +24,6 @@ delay:
 outer:
     mov r3, #0xFF
 inner:
-    nop
     djnz r3, inner
     djnz r2, outer
     ret
