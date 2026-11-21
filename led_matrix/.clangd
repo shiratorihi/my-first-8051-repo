@@ -1,0 +1,10 @@
+CompileFlags:
+  Compiler: sdcc
+  Add:
+    - -include
+    - sdcc_shim.h
+    - -Wno-main-return-type
+    - -D__SDCC__
+    - -D__SDCC_mcs51
+    - -I/opt/homebrew/Cellar/sdcc/4.6.0_1/share/sdcc/include
+    - -I/opt/homebrew/Cellar/sdcc/4.6.0_1/share/sdcc/include/mcs51
