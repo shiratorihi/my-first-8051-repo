@@ -25,12 +25,12 @@
 .org 0x0000
 
 start:
-    sjmp startup
+  sjmp startup
 
 .org 0x0030
 
 startup:
-    mov sp, #_sp_init_addr ; Stack Pointer initialize
+  mov sp, #_sp_init_addr ; Stack Pointer initialize
 
 main:
 
