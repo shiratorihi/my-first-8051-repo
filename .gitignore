@@ -1,3 +1,7 @@
 .DS_Store
 */build
 */.asm-lsp.toml
+*/Objects
+*/Listings
+*/*.uvopt
+*/*.uvgui*
