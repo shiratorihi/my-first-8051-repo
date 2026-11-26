@@ -33,6 +33,6 @@ display_num:
 seg_table:
     db 03FH, 006H, 05BH, 04FH, 066H ; 0 to 4
     db 06DH, 07DH, 007H, 07FH, 06FH ; 5 to 9
-    db 077H, 07CH, 039H, 05EH, 079H, 071H ; A to F
+    db 077H, 07CH, 058H, 05EH, 079H, 071H ; A to F
 
 end
