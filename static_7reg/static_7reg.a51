@@ -3,7 +3,7 @@
 P0 equ 80H
 
 start:
-    mov a, 00H
+    mov a, #00H
 mainloop:
     inc a ; Increase the number to show by one
 ;    da a ; Adjust 0AH to 10H, not needed when displaying in HEX
