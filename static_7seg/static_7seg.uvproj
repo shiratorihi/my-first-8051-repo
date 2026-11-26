@@ -46,10 +46,10 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\Objects\</OutputDirectory>
-          <OutputName>static_7reg</OutputName>
+          <OutputName>static_7seg</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
-          <CreateHexFile>1</CreateHexFile>
+          <CreateHexFile>0</CreateHexFile>
           <DebugInformation>1</DebugInformation>
           <BrowseInformation>1</BrowseInformation>
           <ListingPath>.\Listings\</ListingPath>
@@ -377,9 +377,9 @@
           <GroupName>Source Group 1</GroupName>
           <Files>
             <File>
-              <FileName>static_7reg.a51</FileName>
+              <FileName>static_7seg.a51</FileName>
               <FileType>2</FileType>
-              <FilePath>.\static_7reg.a51</FilePath>
+              <FilePath>.\static_7seg.a51</FilePath>
             </File>
           </Files>
         </Group>
