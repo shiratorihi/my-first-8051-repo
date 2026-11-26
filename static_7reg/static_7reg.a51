@@ -6,7 +6,7 @@ start:
     mov a, 00H
 mainloop:
     inc a ; Increase the number to show by one
-    da a ; Adjust 0AH to 10H
+;    da a ; Adjust 0AH to 10H, not needed when displaying in HEX
     anl a, #0FH ; Mask off high 4 bits to loopback to 00H
     acall display_num
     acall delay
@@ -33,5 +33,6 @@ display_num:
 reg_table:
     db 03FH, 006H, 05BH, 04FH, 066H ; 0 to 4
     db 06DH, 07DH, 007H, 07FH, 06FH ; 5 to 9
+    db 077H, 07CH, 039H, 05EH, 079H, 071H ; A to F
 
 end
