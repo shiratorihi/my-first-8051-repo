@@ -17,12 +17,12 @@ delay_inner:
     ret
 
 buzz:
-    mov r0, #08H
+    mov r0, #04H
 buzz_outer:
     mov r1, #0FFH
 buzz_mid:
+    mov r2, #40H
     cpl BUZ
-    mov r2, #30H
 buzz_inner:
     djnz r2, buzz_inner
     djnz r1, buzz_mid
