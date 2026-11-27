@@ -78,7 +78,7 @@ mainloop:
 
 hc595_load:
     ; Input data to load with a before calling
-    ; Clobbers are c
+    ; Clobbers are a, c
     
     mov c, acc.7
     mov SER, c
